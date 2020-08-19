@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo_desi"
+        />
+    <TextView
+        android:id="@+id/streaming_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:text="Streaming At: https://www.youtube.com/channel/UCMyiw5fn5IqxgP3IffKYSaQ" />
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/streaming_at"
+        android:fontFamily="serif-monospace"
+        android:textColor="@android:color/white"
+        android:text="WE ARE KOLI, WE ARE HUNGRY AND WE ARE EAGER TO EXPLORE FOOD" />
+
+    <TextView
+        android:id="@+id/dm_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:text="DM Us At: https://www.instagram.com/desi_hunger_expedition/" />
+</RelativeLayout>
